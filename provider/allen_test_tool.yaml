@@ -1,0 +1,17 @@
+identity:
+  author: allen
+  name: allen_test_tool
+  label:
+    en_US: allen_test_tool
+    zh_Hans: allen_test_tool
+    pt_BR: allen_test_tool
+  description:
+    en_US: tools testing
+    zh_Hans: tools testing
+    pt_BR: tools testing
+  icon: icon.svg
+tools:
+  - tools/allen_test_tool.yaml
+extra:
+  python:
+    source: provider/allen_test_tool.py
